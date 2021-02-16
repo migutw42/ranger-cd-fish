@@ -15,7 +15,6 @@ function ranger-cd
     rm $dir
     commandline -f repaint
 end
-funcsave ranger-cd
 
 set -q RANGER_CD_FISH; or set RANGER_CD_FISH \co
 bind -M insert $RANGER_CD_FISH ranger-cd
